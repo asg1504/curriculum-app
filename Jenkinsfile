@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('Checkout Code') {
+    stage('Checkout code') {
       steps {
         git(url: 'https://github.com/asg1504/curriculum-app', branch: 'master')
       }
